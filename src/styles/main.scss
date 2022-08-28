@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #15151e;
+  font-family: 'Black Ops One', cursive;
+}
+
+$color: #e10600;
+
+@import './standings';
+@import './topPlace';

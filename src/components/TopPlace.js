@@ -14,7 +14,7 @@ const TopPlace = ({ driver, place }) => {
     <div className="topPlaceContainer">
       <div className="driverImg">
         <Fade duration={2000}>
-          <img src={imgUrl} alt="chuj" />
+          <img src={imgUrl} alt={driverName} />
         </Fade>
         <Fade up>
           <div className="topLeft">

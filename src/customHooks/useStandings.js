@@ -7,7 +7,6 @@ export const useStandings = () => {
       'https://ergast.com/api/f1/current/driverStandings.json'
     );
     const result = await response.json();
-    console.log(result);
     let data =
       await result.MRData.StandingsTable.StandingsLists[0].DriverStandings.map(
         ({ Driver, Constructors, positionText, points }) => {

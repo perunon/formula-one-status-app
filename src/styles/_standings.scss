@@ -6,3 +6,30 @@
   align-items: center;
   align-self: center;
 }
+
+.standingsTableWrapper {
+  height: 66%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.position {
+  margin-right: 10px;
+  text-align: right;
+  width: 30px;
+}
